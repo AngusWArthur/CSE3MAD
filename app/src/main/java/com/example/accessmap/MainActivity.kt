@@ -6,15 +6,14 @@ import androidx.activity.compose.setContent
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.accessmap.ui.theme.AccessMapTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
             AccessMapTheme {
-                Surface {
-                    Greeting("AccessMap User")
+                Surface(color = MaterialTheme.colorScheme.background) {
+                    Greeting("Welcome to AccessMap")
                 }
             }
         }
@@ -22,14 +21,14 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String) {
-    Text(text = "Welcome to AccessMap, $name!")
+fun Greeting(message: String) {
+    Text(text = message)
 }
 
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
     AccessMapTheme {
-        Greeting("Preview")
+        Greeting("Preview!")
     }
 }
