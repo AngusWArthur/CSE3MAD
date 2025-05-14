@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.2.2" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.example.accessmap.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.string.app_name"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="2"
+            column="13"
+            startOffset="25"
+            endLine="2"
+            endColumn="28"
+            endOffset="40"/>
+        <location id="R.dimen.corner_medium"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/shape.xml"
+            line="3"
+            column="12"
+            startOffset="68"
+            endLine="3"
+            endColumn="32"
+            endOffset="88"/>
+        <location id="R.color.purple_700"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="3"
+            column="12"
+            startOffset="70"
+            endLine="3"
+            endColumn="29"
+            endOffset="87"/>
+        <location id="R.color.purple_500"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="2"
+            column="12"
+            startOffset="24"
+            endLine="2"
+            endColumn="29"
+            endOffset="41"/>
+        <location id="R.dimen.corner_large"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/shape.xml"
+            line="4"
+            column="12"
+            startOffset="113"
+            endLine="4"
+            endColumn="31"
+            endOffset="132"/>
+        <entry
+            name="model"
+            string="color[teal_200(D),purple_700(D),purple_500(D)],dimen[corner_large(D),corner_small(D),corner_medium(D)],string[app_name(D)],style[Theme_AccessMap(U)];;;;"/>
+        <location id="R.dimen.corner_small"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/shape.xml"
+            line="2"
+            column="12"
+            startOffset="24"
+            endLine="2"
+            endColumn="31"
+            endOffset="43"/>
+        <location id="R.color.teal_200"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="4"
+            column="12"
+            startOffset="116"
+            endLine="4"
+            endColumn="27"
+            endOffset="131"/>
+    </map>
+
+</incidents>

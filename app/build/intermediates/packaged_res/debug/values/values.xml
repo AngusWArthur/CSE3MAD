@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <dimen name="corner_large">16dp</dimen>
+    <dimen name="corner_medium">8dp</dimen>
+    <dimen name="corner_small">4dp</dimen>
+    <string name="app_name">AccessMap</string>
+    <style name="Theme.AccessMap" parent="android:Theme.DeviceDefault"/>
+</resources>
