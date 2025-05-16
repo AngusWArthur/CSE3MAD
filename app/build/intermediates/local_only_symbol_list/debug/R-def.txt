@@ -6,5 +6,9 @@ color teal_200
 dimen corner_large
 dimen corner_medium
 dimen corner_small
+drawable ic_accessibility_cognitive
+drawable ic_accessibility_hearing
+drawable ic_accessibility_mobility
+drawable ic_accessibility_vision
 string app_name
 style Theme.AccessMap

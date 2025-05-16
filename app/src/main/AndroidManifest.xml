@@ -6,6 +6,10 @@
         android:theme="@style/Theme.AccessMap"
         android:supportsRtl="true">
 
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB-k5rdvDNS7XkS3iGVug3idlC3KMZq00Y" />
+
         <activity android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
