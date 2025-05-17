@@ -20,22 +20,28 @@ import androidx.navigation.compose.*
 import com.google.android.gms.maps.model.*
 import com.google.maps.android.compose.*
 import androidx.core.graphics.createBitmap
+import com.google.firebase.FirebaseApp
+import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.database.ktx.getValue
+import android.util.Log
 
-// Enums for accessibility
 enum class AccessibilityType {
     MOBILITY, VISION, HEARING, COGNITIVE
 }
 
-// Data class for markers
 data class LocationMarker(
-    val latLng: LatLng,
-    val name: String,
-    val accessibilityType: AccessibilityType
-)
+    val latitude: Double = 0.0,
+    val longitude: Double = 0.0,
+    val name: String = "",
+    val accessibilityType: String = ""
+) {
+    fun toLatLng() = LatLng(latitude, longitude)
+}
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        FirebaseApp.initializeApp(this)
         setContent {
             AccessMapTheme {
                 AppNavigator()
@@ -67,40 +73,37 @@ fun MapScreen(
 ) {
     val context = LocalContext.current
     val laTrobe = LatLng(-37.7210, 145.0485)
-
     val cameraPositionState = rememberCameraPositionState {
         position = CameraPosition.fromLatLngZoom(laTrobe, 16f)
     }
 
-    val allLocations = listOf(
-        LocationMarker(
-            latLng = LatLng(-37.72179, 145.04790),
-            name = "La Trobe University Main Entrance",
-            accessibilityType = AccessibilityType.MOBILITY
-        ),
-        LocationMarker(
-            latLng = LatLng(-37.721739, 145.051924),
-            name = "Menzies College",
-            accessibilityType = AccessibilityType.COGNITIVE
-        ),
-        LocationMarker(
-            latLng = LatLng(-37.7176975, 145.0491653),
-            name = "Car Park 8",
-            accessibilityType = AccessibilityType.VISION
-        ),
-        LocationMarker(
-            latLng = LatLng(-37.72180, 145.04860),
-            name = "Union Hall",
-            accessibilityType = AccessibilityType.HEARING
-        )
-    )
+    val database = FirebaseDatabase.getInstance().getReference("locations")
+    var locationMarkers by remember { mutableStateOf<List<LocationMarker>>(emptyList()) }
 
-
+    // Load data once from Firebase
+    LaunchedEffect(true) {
+        database.get().addOnSuccessListener { snapshot ->
+            val locations = mutableListOf<LocationMarker>()
+            snapshot.children.forEach { child ->
+                val marker = child.getValue(LocationMarker::class.java)
+                Log.d("Firebase", "Fetched: $marker")
+                marker?.let { locations.add(it) }
+            }
+            locationMarkers = locations
+            Log.d("Firebase", "Total markers loaded: ${locations.size}")
+        }.addOnFailureListener {
+            Log.e("Firebase", "Failed to load markers: ${it.message}")
+        }
+    }
 
     val filtered = if (selectedFilters.isEmpty()) {
-        allLocations
+        locationMarkers
     } else {
-        allLocations.filter { it.accessibilityType in selectedFilters }
+        locationMarkers.filter {
+            runCatching {
+                AccessibilityType.valueOf(it.accessibilityType) in selectedFilters
+            }.getOrDefault(false)
+        }
     }
 
     Scaffold(
@@ -115,29 +118,36 @@ fun MapScreen(
             )
         }
     ) { innerPadding ->
-        Box(modifier = Modifier
-            .fillMaxSize()
-            .padding(innerPadding)) {
-
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(innerPadding)
+        ) {
             GoogleMap(
                 modifier = Modifier.fillMaxSize(),
                 cameraPositionState = cameraPositionState
             ) {
                 filtered.forEach { location ->
-                    val iconResId = when (location.accessibilityType) {
+                    val type = runCatching {
+                        AccessibilityType.valueOf(location.accessibilityType)
+                    }.getOrNull()
+
+                    val iconResId = when (type) {
                         AccessibilityType.MOBILITY -> R.drawable.ic_accessibility_mobility
                         AccessibilityType.VISION -> R.drawable.ic_accessibility_vision
                         AccessibilityType.HEARING -> R.drawable.ic_accessibility_hearing
                         AccessibilityType.COGNITIVE -> R.drawable.ic_accessibility_cognitive
+                        else -> null
                     }
 
-                    val bitmapDescriptor = vectorToBitmapDescriptor(context, iconResId)
-
-                    Marker(
-                        state = MarkerState(position = location.latLng),
-                        title = location.name,
-                        icon = bitmapDescriptor
-                    )
+                    iconResId?.let {
+                        val bitmapDescriptor = vectorToBitmapDescriptor(context, it)
+                        Marker(
+                            state = MarkerState(position = location.toLatLng()),
+                            title = location.name,
+                            icon = bitmapDescriptor
+                        )
+                    }
                 }
             }
         }
@@ -174,9 +184,11 @@ fun FilterScreen(
             )
         }
     ) { padding ->
-        Column(modifier = Modifier
-            .padding(padding)
-            .padding(16.dp)) {
+        Column(
+            modifier = Modifier
+                .padding(padding)
+                .padding(16.dp)
+        ) {
             options.forEach { type ->
                 Row(
                     modifier = Modifier
@@ -197,7 +209,6 @@ fun FilterScreen(
     }
 }
 
-// Convert vector drawable to bitmap for map marker
 fun vectorToBitmapDescriptor(context: android.content.Context, resId: Int): BitmapDescriptor {
     val drawable: Drawable = ResourcesCompat.getDrawable(context.resources, resId, null)
         ?: throw IllegalArgumentException("Resource not found: $resId")

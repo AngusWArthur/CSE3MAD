@@ -10,45 +10,45 @@
 10
 11    <!-- Include required permissions for Google Maps API to run. -->
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->[com.google.android.gms:play-services-maps:18.2.0] /Users/jessicabull/.gradle/caches/8.13/transforms/325a0c0d7513507fdcba8af6148ed1df/transformed/play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
-12-->[com.google.android.gms:play-services-maps:18.2.0] /Users/jessicabull/.gradle/caches/8.13/transforms/325a0c0d7513507fdcba8af6148ed1df/transformed/play-services-maps-18.2.0/AndroidManifest.xml:23:22-76
+12-->[com.google.android.gms:play-services-maps:18.2.0] /Users/jessicabull/.gradle/caches/8.13/transforms/866b389b2560600621432d99486825eb/transformed/play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+12-->[com.google.android.gms:play-services-maps:18.2.0] /Users/jessicabull/.gradle/caches/8.13/transforms/866b389b2560600621432d99486825eb/transformed/play-services-maps-18.2.0/AndroidManifest.xml:23:22-76
 13    <uses-permission android:name="android.permission.INTERNET" />
-13-->[com.google.android.gms:play-services-maps:18.2.0] /Users/jessicabull/.gradle/caches/8.13/transforms/325a0c0d7513507fdcba8af6148ed1df/transformed/play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
-13-->[com.google.android.gms:play-services-maps:18.2.0] /Users/jessicabull/.gradle/caches/8.13/transforms/325a0c0d7513507fdcba8af6148ed1df/transformed/play-services-maps-18.2.0/AndroidManifest.xml:24:22-64
+13-->[com.google.android.gms:play-services-maps:18.2.0] /Users/jessicabull/.gradle/caches/8.13/transforms/866b389b2560600621432d99486825eb/transformed/play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+13-->[com.google.android.gms:play-services-maps:18.2.0] /Users/jessicabull/.gradle/caches/8.13/transforms/866b389b2560600621432d99486825eb/transformed/play-services-maps-18.2.0/AndroidManifest.xml:24:22-64
 14
 15    <uses-feature
-15-->[com.google.android.gms:play-services-maps:18.2.0] /Users/jessicabull/.gradle/caches/8.13/transforms/325a0c0d7513507fdcba8af6148ed1df/transformed/play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+15-->[com.google.android.gms:play-services-maps:18.2.0] /Users/jessicabull/.gradle/caches/8.13/transforms/866b389b2560600621432d99486825eb/transformed/play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
 16        android:glEsVersion="0x00020000"
-16-->[com.google.android.gms:play-services-maps:18.2.0] /Users/jessicabull/.gradle/caches/8.13/transforms/325a0c0d7513507fdcba8af6148ed1df/transformed/play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+16-->[com.google.android.gms:play-services-maps:18.2.0] /Users/jessicabull/.gradle/caches/8.13/transforms/866b389b2560600621432d99486825eb/transformed/play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
 17        android:required="true" />
-17-->[com.google.android.gms:play-services-maps:18.2.0] /Users/jessicabull/.gradle/caches/8.13/transforms/325a0c0d7513507fdcba8af6148ed1df/transformed/play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+17-->[com.google.android.gms:play-services-maps:18.2.0] /Users/jessicabull/.gradle/caches/8.13/transforms/866b389b2560600621432d99486825eb/transformed/play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
 18
 19    <queries>
-19-->[com.google.android.gms:play-services-maps:18.2.0] /Users/jessicabull/.gradle/caches/8.13/transforms/325a0c0d7513507fdcba8af6148ed1df/transformed/play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+19-->[com.google.android.gms:play-services-maps:18.2.0] /Users/jessicabull/.gradle/caches/8.13/transforms/866b389b2560600621432d99486825eb/transformed/play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
 20
 21        <!-- Needs to be explicitly declared on Android R+ -->
 22        <package android:name="com.google.android.apps.maps" />
-22-->[com.google.android.gms:play-services-maps:18.2.0] /Users/jessicabull/.gradle/caches/8.13/transforms/325a0c0d7513507fdcba8af6148ed1df/transformed/play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
-22-->[com.google.android.gms:play-services-maps:18.2.0] /Users/jessicabull/.gradle/caches/8.13/transforms/325a0c0d7513507fdcba8af6148ed1df/transformed/play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+22-->[com.google.android.gms:play-services-maps:18.2.0] /Users/jessicabull/.gradle/caches/8.13/transforms/866b389b2560600621432d99486825eb/transformed/play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+22-->[com.google.android.gms:play-services-maps:18.2.0] /Users/jessicabull/.gradle/caches/8.13/transforms/866b389b2560600621432d99486825eb/transformed/play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
 23    </queries>
 24
 25    <permission
-25-->[androidx.core:core:1.12.0] /Users/jessicabull/.gradle/caches/8.13/transforms/b23364651b4a5acd3e65a2b909b7081e/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+25-->[androidx.core:core:1.12.0] /Users/jessicabull/.gradle/caches/8.13/transforms/0da1497ff24b2715ff3c7864c19ff010/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
 26        android:name="com.example.accessmap.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-26-->[androidx.core:core:1.12.0] /Users/jessicabull/.gradle/caches/8.13/transforms/b23364651b4a5acd3e65a2b909b7081e/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+26-->[androidx.core:core:1.12.0] /Users/jessicabull/.gradle/caches/8.13/transforms/0da1497ff24b2715ff3c7864c19ff010/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
 27        android:protectionLevel="signature" />
-27-->[androidx.core:core:1.12.0] /Users/jessicabull/.gradle/caches/8.13/transforms/b23364651b4a5acd3e65a2b909b7081e/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+27-->[androidx.core:core:1.12.0] /Users/jessicabull/.gradle/caches/8.13/transforms/0da1497ff24b2715ff3c7864c19ff010/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
 28
 29    <uses-permission android:name="com.example.accessmap.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-29-->[androidx.core:core:1.12.0] /Users/jessicabull/.gradle/caches/8.13/transforms/b23364651b4a5acd3e65a2b909b7081e/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
-29-->[androidx.core:core:1.12.0] /Users/jessicabull/.gradle/caches/8.13/transforms/b23364651b4a5acd3e65a2b909b7081e/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+29-->[androidx.core:core:1.12.0] /Users/jessicabull/.gradle/caches/8.13/transforms/0da1497ff24b2715ff3c7864c19ff010/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.12.0] /Users/jessicabull/.gradle/caches/8.13/transforms/0da1497ff24b2715ff3c7864c19ff010/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
 30
 31    <application
 31-->/Users/jessicabull/CSE3MAD/app/src/main/AndroidManifest.xml:3:5-21:19
 32        android:allowBackup="true"
 32-->/Users/jessicabull/CSE3MAD/app/src/main/AndroidManifest.xml:4:9-35
 33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-33-->[androidx.core:core:1.12.0] /Users/jessicabull/.gradle/caches/8.13/transforms/b23364651b4a5acd3e65a2b909b7081e/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+33-->[androidx.core:core:1.12.0] /Users/jessicabull/.gradle/caches/8.13/transforms/0da1497ff24b2715ff3c7864c19ff010/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
 34        android:debuggable="true"
 35        android:extractNativeLibs="false"
 36        android:label="AccessMap"
@@ -83,99 +83,164 @@
 51            </intent-filter>
 52        </activity>
 53        <activity
-53-->[androidx.compose.ui:ui-tooling-android:1.6.1] /Users/jessicabull/.gradle/caches/8.13/transforms/a77cfe0044ee1208bc23605f08267711/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+53-->[androidx.compose.ui:ui-tooling-android:1.6.1] /Users/jessicabull/.gradle/caches/8.13/transforms/76c7fd158b3306ecf64b89d92654bacb/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
 54            android:name="androidx.compose.ui.tooling.PreviewActivity"
-54-->[androidx.compose.ui:ui-tooling-android:1.6.1] /Users/jessicabull/.gradle/caches/8.13/transforms/a77cfe0044ee1208bc23605f08267711/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+54-->[androidx.compose.ui:ui-tooling-android:1.6.1] /Users/jessicabull/.gradle/caches/8.13/transforms/76c7fd158b3306ecf64b89d92654bacb/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
 55            android:exported="true" /> <!-- Needs to be explicitly declared on P+ -->
-55-->[androidx.compose.ui:ui-tooling-android:1.6.1] /Users/jessicabull/.gradle/caches/8.13/transforms/a77cfe0044ee1208bc23605f08267711/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+55-->[androidx.compose.ui:ui-tooling-android:1.6.1] /Users/jessicabull/.gradle/caches/8.13/transforms/76c7fd158b3306ecf64b89d92654bacb/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
 56        <uses-library
-56-->[com.google.android.gms:play-services-maps:18.2.0] /Users/jessicabull/.gradle/caches/8.13/transforms/325a0c0d7513507fdcba8af6148ed1df/transformed/play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+56-->[com.google.android.gms:play-services-maps:18.2.0] /Users/jessicabull/.gradle/caches/8.13/transforms/866b389b2560600621432d99486825eb/transformed/play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
 57            android:name="org.apache.http.legacy"
-57-->[com.google.android.gms:play-services-maps:18.2.0] /Users/jessicabull/.gradle/caches/8.13/transforms/325a0c0d7513507fdcba8af6148ed1df/transformed/play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+57-->[com.google.android.gms:play-services-maps:18.2.0] /Users/jessicabull/.gradle/caches/8.13/transforms/866b389b2560600621432d99486825eb/transformed/play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
 58            android:required="false" />
-58-->[com.google.android.gms:play-services-maps:18.2.0] /Users/jessicabull/.gradle/caches/8.13/transforms/325a0c0d7513507fdcba8af6148ed1df/transformed/play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+58-->[com.google.android.gms:play-services-maps:18.2.0] /Users/jessicabull/.gradle/caches/8.13/transforms/866b389b2560600621432d99486825eb/transformed/play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
 59
-60        <activity
-60-->[com.google.android.gms:play-services-base:18.0.1] /Users/jessicabull/.gradle/caches/8.13/transforms/462101b0541b0ac4e4a6a81b1823ccab/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
-61            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-61-->[com.google.android.gms:play-services-base:18.0.1] /Users/jessicabull/.gradle/caches/8.13/transforms/462101b0541b0ac4e4a6a81b1823ccab/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
-62            android:exported="false"
-62-->[com.google.android.gms:play-services-base:18.0.1] /Users/jessicabull/.gradle/caches/8.13/transforms/462101b0541b0ac4e4a6a81b1823ccab/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
-63            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-63-->[com.google.android.gms:play-services-base:18.0.1] /Users/jessicabull/.gradle/caches/8.13/transforms/462101b0541b0ac4e4a6a81b1823ccab/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
-64
-65        <meta-data
-65-->[com.google.android.gms:play-services-basement:18.0.0] /Users/jessicabull/.gradle/caches/8.13/transforms/baf0dd56f4ffda00e6e08155fddacf04/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
-66            android:name="com.google.android.gms.version"
-66-->[com.google.android.gms:play-services-basement:18.0.0] /Users/jessicabull/.gradle/caches/8.13/transforms/baf0dd56f4ffda00e6e08155fddacf04/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
-67            android:value="@integer/google_play_services_version" />
-67-->[com.google.android.gms:play-services-basement:18.0.0] /Users/jessicabull/.gradle/caches/8.13/transforms/baf0dd56f4ffda00e6e08155fddacf04/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
-68
-69        <provider
-69-->[androidx.emoji2:emoji2:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/2a40f68083b3ed8c0c4f68d0b126c1a0/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
-70            android:name="androidx.startup.InitializationProvider"
-70-->[androidx.emoji2:emoji2:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/2a40f68083b3ed8c0c4f68d0b126c1a0/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
-71            android:authorities="com.example.accessmap.androidx-startup"
-71-->[androidx.emoji2:emoji2:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/2a40f68083b3ed8c0c4f68d0b126c1a0/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
-72            android:exported="false" >
-72-->[androidx.emoji2:emoji2:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/2a40f68083b3ed8c0c4f68d0b126c1a0/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+60        <service
+60-->[com.google.firebase:firebase-database:20.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/5532b802f0df763db1ffbf7d3e0621f6/transformed/firebase-database-20.3.0/AndroidManifest.xml:26:9-35:19
+61            android:name="com.google.firebase.components.ComponentDiscoveryService"
+61-->[com.google.firebase:firebase-database:20.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/5532b802f0df763db1ffbf7d3e0621f6/transformed/firebase-database-20.3.0/AndroidManifest.xml:27:13-84
+62            android:directBootAware="true"
+62-->[com.google.firebase:firebase-common:20.4.2] /Users/jessicabull/.gradle/caches/8.13/transforms/9231698c17e2b64972d84664ee6b4e79/transformed/firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+63            android:exported="false" >
+63-->[com.google.firebase:firebase-database:20.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/5532b802f0df763db1ffbf7d3e0621f6/transformed/firebase-database-20.3.0/AndroidManifest.xml:28:13-37
+64            <meta-data
+64-->[com.google.firebase:firebase-database:20.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/5532b802f0df763db1ffbf7d3e0621f6/transformed/firebase-database-20.3.0/AndroidManifest.xml:29:13-31:85
+65                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+65-->[com.google.firebase:firebase-database:20.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/5532b802f0df763db1ffbf7d3e0621f6/transformed/firebase-database-20.3.0/AndroidManifest.xml:30:17-120
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-database:20.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/5532b802f0df763db1ffbf7d3e0621f6/transformed/firebase-database-20.3.0/AndroidManifest.xml:31:17-82
+67            <meta-data
+67-->[com.google.firebase:firebase-database:20.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/5532b802f0df763db1ffbf7d3e0621f6/transformed/firebase-database-20.3.0/AndroidManifest.xml:32:13-34:85
+68                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+68-->[com.google.firebase:firebase-database:20.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/5532b802f0df763db1ffbf7d3e0621f6/transformed/firebase-database-20.3.0/AndroidManifest.xml:33:17-109
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-database:20.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/5532b802f0df763db1ffbf7d3e0621f6/transformed/firebase-database-20.3.0/AndroidManifest.xml:34:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-firestore-ktx:24.9.0] /Users/jessicabull/.gradle/caches/8.13/transforms/d7b618c42cab64c0db10055e9ad79e7f/transformed/firebase-firestore-ktx-24.9.0/AndroidManifest.xml:12:13-14:85
+71                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreLegacyRegistrar"
+71-->[com.google.firebase:firebase-firestore-ktx:24.9.0] /Users/jessicabull/.gradle/caches/8.13/transforms/d7b618c42cab64c0db10055e9ad79e7f/transformed/firebase-firestore-ktx-24.9.0/AndroidManifest.xml:13:17-129
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-firestore-ktx:24.9.0] /Users/jessicabull/.gradle/caches/8.13/transforms/d7b618c42cab64c0db10055e9ad79e7f/transformed/firebase-firestore-ktx-24.9.0/AndroidManifest.xml:14:17-82
 73            <meta-data
-73-->[androidx.emoji2:emoji2:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/2a40f68083b3ed8c0c4f68d0b126c1a0/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
-74                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-74-->[androidx.emoji2:emoji2:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/2a40f68083b3ed8c0c4f68d0b126c1a0/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
-75                android:value="androidx.startup" />
-75-->[androidx.emoji2:emoji2:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/2a40f68083b3ed8c0c4f68d0b126c1a0/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+73-->[com.google.firebase:firebase-firestore:24.9.0] /Users/jessicabull/.gradle/caches/8.13/transforms/2e9dbf3e8829333194013040ed26945c/transformed/firebase-firestore-24.9.0/AndroidManifest.xml:17:13-19:85
+74                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+74-->[com.google.firebase:firebase-firestore:24.9.0] /Users/jessicabull/.gradle/caches/8.13/transforms/2e9dbf3e8829333194013040ed26945c/transformed/firebase-firestore-24.9.0/AndroidManifest.xml:18:17-122
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.firebase:firebase-firestore:24.9.0] /Users/jessicabull/.gradle/caches/8.13/transforms/2e9dbf3e8829333194013040ed26945c/transformed/firebase-firestore-24.9.0/AndroidManifest.xml:19:17-82
 76            <meta-data
-76-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/jessicabull/.gradle/caches/8.13/transforms/ffd9fd815298dae1f9228ac30f3e8ce1/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
-77                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-77-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/jessicabull/.gradle/caches/8.13/transforms/ffd9fd815298dae1f9228ac30f3e8ce1/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
-78                android:value="androidx.startup" />
-78-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/jessicabull/.gradle/caches/8.13/transforms/ffd9fd815298dae1f9228ac30f3e8ce1/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+76-->[com.google.firebase:firebase-firestore:24.9.0] /Users/jessicabull/.gradle/caches/8.13/transforms/2e9dbf3e8829333194013040ed26945c/transformed/firebase-firestore-24.9.0/AndroidManifest.xml:20:13-22:85
+77                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+77-->[com.google.firebase:firebase-firestore:24.9.0] /Users/jessicabull/.gradle/caches/8.13/transforms/2e9dbf3e8829333194013040ed26945c/transformed/firebase-firestore-24.9.0/AndroidManifest.xml:21:17-111
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-firestore:24.9.0] /Users/jessicabull/.gradle/caches/8.13/transforms/2e9dbf3e8829333194013040ed26945c/transformed/firebase-firestore-24.9.0/AndroidManifest.xml:22:17-82
 79            <meta-data
-79-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/d6de01a34d0ac53c595e1aff96607efc/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
-80                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-80-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/d6de01a34d0ac53c595e1aff96607efc/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
-81                android:value="androidx.startup" />
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/d6de01a34d0ac53c595e1aff96607efc/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
-82        </provider>
-83
-84        <receiver
-84-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/d6de01a34d0ac53c595e1aff96607efc/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
-85            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-85-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/d6de01a34d0ac53c595e1aff96607efc/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
-86            android:directBootAware="false"
-86-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/d6de01a34d0ac53c595e1aff96607efc/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
-87            android:enabled="true"
-87-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/d6de01a34d0ac53c595e1aff96607efc/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
-88            android:exported="true"
-88-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/d6de01a34d0ac53c595e1aff96607efc/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
-89            android:permission="android.permission.DUMP" >
-89-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/d6de01a34d0ac53c595e1aff96607efc/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
-90            <intent-filter>
-90-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/d6de01a34d0ac53c595e1aff96607efc/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
-91                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-91-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/d6de01a34d0ac53c595e1aff96607efc/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
-91-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/d6de01a34d0ac53c595e1aff96607efc/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
-92            </intent-filter>
-93            <intent-filter>
-93-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/d6de01a34d0ac53c595e1aff96607efc/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
-94                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-94-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/d6de01a34d0ac53c595e1aff96607efc/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
-94-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/d6de01a34d0ac53c595e1aff96607efc/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
-95            </intent-filter>
-96            <intent-filter>
-96-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/d6de01a34d0ac53c595e1aff96607efc/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
-97                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-97-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/d6de01a34d0ac53c595e1aff96607efc/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
-97-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/d6de01a34d0ac53c595e1aff96607efc/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
-98            </intent-filter>
-99            <intent-filter>
-99-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/d6de01a34d0ac53c595e1aff96607efc/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
-100                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-100-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/d6de01a34d0ac53c595e1aff96607efc/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
-100-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/d6de01a34d0ac53c595e1aff96607efc/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
-101            </intent-filter>
-102        </receiver>
-103    </application>
-104
-105</manifest>
+79-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/jessicabull/.gradle/caches/8.13/transforms/5ed617d6009598a24e5f8a3aea585f6d/transformed/firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+80                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+80-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/jessicabull/.gradle/caches/8.13/transforms/5ed617d6009598a24e5f8a3aea585f6d/transformed/firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/jessicabull/.gradle/caches/8.13/transforms/5ed617d6009598a24e5f8a3aea585f6d/transformed/firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-common:20.4.2] /Users/jessicabull/.gradle/caches/8.13/transforms/9231698c17e2b64972d84664ee6b4e79/transformed/firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+83                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+83-->[com.google.firebase:firebase-common:20.4.2] /Users/jessicabull/.gradle/caches/8.13/transforms/9231698c17e2b64972d84664ee6b4e79/transformed/firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-common:20.4.2] /Users/jessicabull/.gradle/caches/8.13/transforms/9231698c17e2b64972d84664ee6b4e79/transformed/firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+85        </service>
+86
+87        <activity
+87-->[com.google.android.gms:play-services-base:18.1.0] /Users/jessicabull/.gradle/caches/8.13/transforms/f804fd9d696612ee40493465a21d622c/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+88            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+88-->[com.google.android.gms:play-services-base:18.1.0] /Users/jessicabull/.gradle/caches/8.13/transforms/f804fd9d696612ee40493465a21d622c/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+89            android:exported="false"
+89-->[com.google.android.gms:play-services-base:18.1.0] /Users/jessicabull/.gradle/caches/8.13/transforms/f804fd9d696612ee40493465a21d622c/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+90            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+90-->[com.google.android.gms:play-services-base:18.1.0] /Users/jessicabull/.gradle/caches/8.13/transforms/f804fd9d696612ee40493465a21d622c/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+91
+92        <provider
+92-->[com.google.firebase:firebase-common:20.4.2] /Users/jessicabull/.gradle/caches/8.13/transforms/9231698c17e2b64972d84664ee6b4e79/transformed/firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+93            android:name="com.google.firebase.provider.FirebaseInitProvider"
+93-->[com.google.firebase:firebase-common:20.4.2] /Users/jessicabull/.gradle/caches/8.13/transforms/9231698c17e2b64972d84664ee6b4e79/transformed/firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+94            android:authorities="com.example.accessmap.firebaseinitprovider"
+94-->[com.google.firebase:firebase-common:20.4.2] /Users/jessicabull/.gradle/caches/8.13/transforms/9231698c17e2b64972d84664ee6b4e79/transformed/firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+95            android:directBootAware="true"
+95-->[com.google.firebase:firebase-common:20.4.2] /Users/jessicabull/.gradle/caches/8.13/transforms/9231698c17e2b64972d84664ee6b4e79/transformed/firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+96            android:exported="false"
+96-->[com.google.firebase:firebase-common:20.4.2] /Users/jessicabull/.gradle/caches/8.13/transforms/9231698c17e2b64972d84664ee6b4e79/transformed/firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+97            android:initOrder="100" />
+97-->[com.google.firebase:firebase-common:20.4.2] /Users/jessicabull/.gradle/caches/8.13/transforms/9231698c17e2b64972d84664ee6b4e79/transformed/firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+98
+99        <meta-data
+99-->[com.google.android.gms:play-services-basement:18.1.0] /Users/jessicabull/.gradle/caches/8.13/transforms/bdc9d5c9b0dcdd46c957d2746297b265/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+100            android:name="com.google.android.gms.version"
+100-->[com.google.android.gms:play-services-basement:18.1.0] /Users/jessicabull/.gradle/caches/8.13/transforms/bdc9d5c9b0dcdd46c957d2746297b265/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+101            android:value="@integer/google_play_services_version" />
+101-->[com.google.android.gms:play-services-basement:18.1.0] /Users/jessicabull/.gradle/caches/8.13/transforms/bdc9d5c9b0dcdd46c957d2746297b265/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+102
+103        <provider
+103-->[androidx.emoji2:emoji2:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9a66a387a22639156728cda17c28d5a3/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+104            android:name="androidx.startup.InitializationProvider"
+104-->[androidx.emoji2:emoji2:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9a66a387a22639156728cda17c28d5a3/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+105            android:authorities="com.example.accessmap.androidx-startup"
+105-->[androidx.emoji2:emoji2:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9a66a387a22639156728cda17c28d5a3/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+106            android:exported="false" >
+106-->[androidx.emoji2:emoji2:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9a66a387a22639156728cda17c28d5a3/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+107            <meta-data
+107-->[androidx.emoji2:emoji2:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9a66a387a22639156728cda17c28d5a3/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+108                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+108-->[androidx.emoji2:emoji2:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9a66a387a22639156728cda17c28d5a3/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+109                android:value="androidx.startup" />
+109-->[androidx.emoji2:emoji2:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9a66a387a22639156728cda17c28d5a3/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+110            <meta-data
+110-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/jessicabull/.gradle/caches/8.13/transforms/c475c7691d57d732f0f995c7c131b93c/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+111                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+111-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/jessicabull/.gradle/caches/8.13/transforms/c475c7691d57d732f0f995c7c131b93c/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+112                android:value="androidx.startup" />
+112-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/jessicabull/.gradle/caches/8.13/transforms/c475c7691d57d732f0f995c7c131b93c/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+113            <meta-data
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9fbd5c1137f4b490ae4474fc6b4ae5b6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+114                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9fbd5c1137f4b490ae4474fc6b4ae5b6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+115                android:value="androidx.startup" />
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9fbd5c1137f4b490ae4474fc6b4ae5b6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+116        </provider>
+117
+118        <receiver
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9fbd5c1137f4b490ae4474fc6b4ae5b6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+119            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9fbd5c1137f4b490ae4474fc6b4ae5b6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+120            android:directBootAware="false"
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9fbd5c1137f4b490ae4474fc6b4ae5b6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+121            android:enabled="true"
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9fbd5c1137f4b490ae4474fc6b4ae5b6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+122            android:exported="true"
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9fbd5c1137f4b490ae4474fc6b4ae5b6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+123            android:permission="android.permission.DUMP" >
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9fbd5c1137f4b490ae4474fc6b4ae5b6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+124            <intent-filter>
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9fbd5c1137f4b490ae4474fc6b4ae5b6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+125                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9fbd5c1137f4b490ae4474fc6b4ae5b6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9fbd5c1137f4b490ae4474fc6b4ae5b6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+126            </intent-filter>
+127            <intent-filter>
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9fbd5c1137f4b490ae4474fc6b4ae5b6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+128                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9fbd5c1137f4b490ae4474fc6b4ae5b6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9fbd5c1137f4b490ae4474fc6b4ae5b6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+129            </intent-filter>
+130            <intent-filter>
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9fbd5c1137f4b490ae4474fc6b4ae5b6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+131                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9fbd5c1137f4b490ae4474fc6b4ae5b6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9fbd5c1137f4b490ae4474fc6b4ae5b6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+132            </intent-filter>
+133            <intent-filter>
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9fbd5c1137f4b490ae4474fc6b4ae5b6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+134                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9fbd5c1137f4b490ae4474fc6b4ae5b6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/jessicabull/.gradle/caches/8.13/transforms/9fbd5c1137f4b490ae4474fc6b4ae5b6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+135            </intent-filter>
+136        </receiver>
+137    </application>
+138
+139</manifest>

@@ -297,6 +297,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+raw firebase_common_keep
 string androidx_startup
 string app_name
 string bottom_sheet_collapse_description
@@ -367,6 +368,11 @@ string default_popup_window_title
 string dialog
 string dropdown_menu
 string expanded
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string in_progress
 string indeterminate
 string m3c_bottom_sheet_pane_title
@@ -374,6 +380,7 @@ string navigation_menu
 string not_selected
 string off
 string on
+string project_id
 string range_end
 string range_start
 string search_bar_search
