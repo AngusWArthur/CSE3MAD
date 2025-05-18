@@ -1,5 +1,8 @@
-apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'com.google.gms.google-services'
+}
 
 android {
     namespace 'com.example.accessmap'
@@ -37,12 +40,13 @@ dependencies {
     implementation "androidx.compose.ui:ui-tooling-preview:1.6.0"
     debugImplementation "androidx.compose.ui:ui-tooling:1.6.0"
 
-
-    implementation 'com.google.maps.android:maps-compose:2.11.4'
-    implementation 'com.google.android.gms:play-services-maps:18.2.0'
     implementation "androidx.compose.material:material-icons-extended:1.6.1"
     implementation "androidx.navigation:navigation-compose:2.6.0"
 
+    implementation 'com.google.maps.android:maps-compose:2.11.4'
+    implementation 'com.google.android.gms:play-services-maps:18.2.0'
 
-
+    // Firebase (pick only the ones you use)
+    implementation 'com.google.firebase:firebase-firestore-ktx:24.9.0'
+    implementation 'com.google.firebase:firebase-database:20.3.0'
 }
