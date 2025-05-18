@@ -1,74 +1,53 @@
 package com.example.accessmap
 
+import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.runtime.mutableStateListOf
-import androidx.compose.runtime.remember
-import androidx.navigation.compose.rememberNavController
-import androidx.navigation.compose.NavHost
-import androidx.navigation.compose.composable
-//import androidx.compose.foundation.layout.*
-//import androidx.compose.material.icons.Icons
-//import androidx.compose.material.icons.filled.FilterList
-//import androidx.compose.material3.*
+import androidx.activity.result.contract.ActivityResultContracts.StartActivityForResult
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.ActivityResult
+import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.compose.runtime.*
-//import androidx.compose.ui.Modifier
-//import androidx.compose.ui.platform.LocalContext
-//import androidx.compose.ui.unit.dp
-//import androidx.core.content.res.ResourcesCompat
-//import androidx.navigation.NavController
-//import androidx.navigation.compose.*
-import com.google.android.gms.maps.model.*
-//import com.google.maps.android.compose.*
-//import androidx.core.graphics.createBitmap
 import com.example.accessmap.ui.theme.AccessMapTheme
-import com.google.firebase.FirebaseApp
-
-
-enum class AccessibilityType {
-    MOBILITY, VISION, HEARING, COGNITIVE
-}
-
-data class LocationMarker(
-    val latitude: Double = 0.0,
-    val longitude: Double = 0.0,
-    val name: String = "",
-    val accessibilityType: String = ""
-) {
-    fun toLatLng() = LatLng(latitude, longitude)
-}
+import com.google.android.libraries.places.api.Places
+import com.google.android.libraries.places.api.model.Place
+import com.google.android.libraries.places.widget.Autocomplete
+import com.google.android.libraries.places.widget.model.AutocompleteActivityMode
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        FirebaseApp.initializeApp(this)
+
+        if (!Places.isInitialized()) {
+            Places.initialize(applicationContext, getString(R.string.google_maps_key))
+        }
+
         setContent {
             AccessMapTheme {
-                AppNavigator()
+                val sharedViewModel: SharedViewModel = viewModel()
+
+                // ✅ Stable launcher
+                val launcher = rememberLauncherForActivityResult(StartActivityForResult()) { result: ActivityResult ->
+                    if (result.resultCode == RESULT_OK && result.data != null) {
+                        val place = Autocomplete.getPlaceFromIntent(result.data!!)
+                        Log.d("PlaceSelection", "Place: ${place.name}, ${place.latLng}")
+                        sharedViewModel.selectedPlace.value = place
+                    }
+                }
+
+                AppNavigator(
+                    sharedViewModel = sharedViewModel,
+                    onSearchClicked = {
+                        val intent = Autocomplete.IntentBuilder(
+                            AutocompleteActivityMode.FULLSCREEN,
+                            listOf(Place.Field.ID, Place.Field.NAME, Place.Field.LAT_LNG)
+                        ).build(this)
+                        launcher.launch(intent)
+                    }
+                )
             }
         }
     }
 }
-
-@Composable
-fun AppNavigator() {
-    val navController = rememberNavController()
-    val selectedFilters = remember { mutableStateListOf<AccessibilityType>() }
-
-    NavHost(navController = navController, startDestination = "map") {
-        composable("map") {
-            MapScreen(navController = navController, selectedFilters = selectedFilters)
-        }
-        composable("filters") {
-            FilterScreen(navController = navController, selectedFilters = selectedFilters)
-        }
-        composable("submitReview") {
-            ReviewFormScreen()
-        }
-        composable("viewReviews") {
-            ReviewListScreen()
-        }
-    }
-}
-
