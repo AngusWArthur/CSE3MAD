@@ -38,12 +38,12 @@
       applicationId="com.example.accessmap"
       generatedSourceFolders="build\generated\ap_generated_sources\debug\out"
       generatedResourceFolders="build\generated\res\resValues\debug"
-      desugaredMethodsFiles="C:\Users\awart\.gradle\caches\8.13\transforms\6d3b35bcdcbcb02802e438237c4e0154\transformed\D8BackportedDesugaredMethods.txt">
+      desugaredMethodsFiles="C:\Users\awart\.gradle\caches\8.13\transforms\00c7dfef1614caa1bf3a336ca80cc6ae\transformed\D8BackportedDesugaredMethods.txt">
   </artifact>
   <androidTestArtifact
       applicationId="com.example.accessmap.test"
       generatedResourceFolders="build\generated\res\resValues\androidTest\debug"
-      desugaredMethodsFiles="C:\Users\awart\.gradle\caches\8.13\transforms\6d3b35bcdcbcb02802e438237c4e0154\transformed\D8BackportedDesugaredMethods.txt">
+      desugaredMethodsFiles="C:\Users\awart\.gradle\caches\8.13\transforms\00c7dfef1614caa1bf3a336ca80cc6ae\transformed\D8BackportedDesugaredMethods.txt">
   </androidTestArtifact>
   <testArtifact>
   </testArtifact>
