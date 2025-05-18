@@ -2,6 +2,34 @@
 <incidents format="6" by="lint 8.2.2" type="incidents">
 
     <incident
+        id="VectorPath"
+        severity="warning"
+        message="Very long vector path (958 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/ic_accessibility_cognitive.xml"
+            line="3"
+            column="70"
+            startOffset="269"
+            endLine="3"
+            endColumn="1028"
+            endOffset="1227"/>
+    </incident>
+
+    <incident
+        id="VectorPath"
+        severity="warning"
+        message="Very long vector path (2075 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/ic_accessibility_hearing.xml"
+            line="3"
+            column="70"
+            startOffset="269"
+            endLine="3"
+            endColumn="2145"
+            endOffset="2344"/>
+    </incident>
+
+    <incident
         id="OldTargetApi"
         severity="warning"
         message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details.">
@@ -11,12 +39,12 @@
             replacement="36"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="11"
+            line="14"
             column="9"
-            startOffset="241"
-            endLine="11"
+            startOffset="282"
+            endLine="14"
             endColumn="21"
-            endOffset="253"/>
+            endOffset="294"/>
     </incident>
 
     <incident
@@ -30,12 +58,12 @@
             replacement="2.1.0"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="30"
+            line="33"
             column="20"
-            startOffset="541"
-            endLine="30"
+            startOffset="582"
+            endLine="33"
             endColumn="63"
-            endOffset="584"/>
+            endOffset="625"/>
     </incident>
 
     <incident
@@ -49,12 +77,12 @@
             replacement="1.16.0"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="32"
+            line="35"
             column="20"
-            startOffset="607"
-            endLine="32"
+            startOffset="648"
+            endLine="35"
             endColumn="51"
-            endOffset="638"/>
+            endOffset="679"/>
     </incident>
 
     <incident
@@ -68,12 +96,12 @@
             replacement="1.10.1"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="33"
+            line="36"
             column="20"
-            startOffset="659"
-            endLine="33"
+            startOffset="700"
+            endLine="36"
             endColumn="62"
-            endOffset="701"/>
+            endOffset="742"/>
     </incident>
 
     <incident
@@ -87,12 +115,12 @@
             replacement="1.8.1"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="35"
+            line="38"
             column="20"
-            startOffset="724"
-            endLine="35"
+            startOffset="765"
+            endLine="38"
             endColumn="50"
-            endOffset="754"/>
+            endOffset="795"/>
     </incident>
 
     <incident
@@ -106,12 +134,12 @@
             replacement="1.3.2"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="36"
+            line="39"
             column="20"
-            startOffset="775"
-            endLine="36"
+            startOffset="816"
+            endLine="39"
             endColumn="64"
-            endOffset="819"/>
+            endOffset="860"/>
     </incident>
 
     <incident
@@ -125,12 +153,12 @@
             replacement="1.8.1"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="37"
+            line="40"
             column="20"
-            startOffset="840"
-            endLine="37"
+            startOffset="881"
+            endLine="40"
             endColumn="66"
-            endOffset="886"/>
+            endOffset="927"/>
     </incident>
 
     <incident
@@ -144,12 +172,107 @@
             replacement="1.8.1"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="38"
+            line="41"
             column="25"
-            startOffset="912"
-            endLine="38"
+            startOffset="953"
+            endLine="41"
             endColumn="63"
-            endOffset="950"/>
+            endOffset="991"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.compose.material:material-icons-extended than 1.6.1 is available: 1.7.8">
+        <fix-replace
+            description="Change to 1.7.8"
+            family="Update versions"
+            oldString="1.6.1"
+            replacement="1.7.8"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="43"
+            column="20"
+            startOffset="1014"
+            endLine="43"
+            endColumn="77"
+            endOffset="1071"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.navigation:navigation-compose than 2.6.0 is available: 2.9.0">
+        <fix-replace
+            description="Change to 2.9.0"
+            family="Update versions"
+            oldString="2.6.0"
+            replacement="2.9.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="44"
+            column="20"
+            startOffset="1092"
+            endLine="44"
+            endColumn="66"
+            endOffset="1138"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.gms:play-services-maps than 18.2.0 is available: 19.2.0">
+        <fix-replace
+            description="Change to 19.2.0"
+            family="Update versions"
+            oldString="18.2.0"
+            replacement="19.2.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="47"
+            column="20"
+            startOffset="1227"
+            endLine="47"
+            endColumn="70"
+            endOffset="1277"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.firebase:firebase-firestore-ktx than 24.9.0 is available: 25.1.4">
+        <fix-replace
+            description="Change to 25.1.4"
+            family="Update versions"
+            oldString="24.9.0"
+            replacement="25.1.4"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="50"
+            column="20"
+            startOffset="1346"
+            endLine="50"
+            endColumn="71"
+            endOffset="1397"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.firebase:firebase-database than 20.3.0 is available: 21.0.0">
+        <fix-replace
+            description="Change to 21.0.0"
+            family="Update versions"
+            oldString="20.3.0"
+            replacement="21.0.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="51"
+            column="20"
+            startOffset="1418"
+            endLine="51"
+            endColumn="66"
+            endOffset="1464"/>
     </incident>
 
 </incidents>

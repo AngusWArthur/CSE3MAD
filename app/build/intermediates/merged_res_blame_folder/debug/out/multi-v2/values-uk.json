@@ -4,24 +4,7 @@
             "outputFile": "com.example.accessmap.app-mergeDebugResources-56:/values-uk/values-uk.xml",
             "map": [
                 {
-                    "source": "/Users/jessicabull/.gradle/caches/8.13/transforms/bdc9d5c9b0dcdd46c957d2746297b265/transformed/play-services-basement-18.1.0/res/values-uk/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "141",
-                        "endOffsets": "336"
-                    },
-                    "to": {
-                        "startLines": "24",
-                        "startColumns": "4",
-                        "startOffsets": "2551",
-                        "endColumns": "145",
-                        "endOffsets": "2692"
-                    }
-                },
-                {
-                    "source": "/Users/jessicabull/.gradle/caches/8.13/transforms/cf1891277f0ebfdbb2052a47b11e59c5/transformed/ui-release/res/values-uk/values-uk.xml",
+                    "source": "C:\\Users\\awart\\.gradle\\caches\\8.13\\transforms\\cf1891277f0ebfdbb2052a47b11e59c5\\transformed\\ui-release\\res\\values-uk\\values-uk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/Users/jessicabull/.gradle/caches/8.13/transforms/f804fd9d696612ee40493465a21d622c/transformed/play-services-base-18.1.0/res/values-uk/values.xml",
+                    "source": "C:\\Users\\awart\\.gradle\\caches\\8.13\\transforms\\bdc9d5c9b0dcdd46c957d2746297b265\\transformed\\play-services-basement-18.1.0\\res\\values-uk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "141",
+                        "endOffsets": "336"
+                    },
+                    "to": {
+                        "startLines": "24",
+                        "startColumns": "4",
+                        "startOffsets": "2551",
+                        "endColumns": "145",
+                        "endOffsets": "2692"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\awart\\.gradle\\caches\\8.13\\transforms\\f804fd9d696612ee40493465a21d622c\\transformed\\play-services-base-18.1.0\\res\\values-uk\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jessicabull/.gradle/caches/8.13/transforms/a01e88b97b5585ced31b3b1a92ad52e1/transformed/foundation-release/res/values-uk/values-uk.xml",
+                    "source": "C:\\Users\\awart\\.gradle\\caches\\8.13\\transforms\\a01e88b97b5585ced31b3b1a92ad52e1\\transformed\\foundation-release\\res\\values-uk\\values-uk.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -72,7 +72,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jessicabull/.gradle/caches/8.13/transforms/0da1497ff24b2715ff3c7864c19ff010/transformed/core-1.12.0/res/values-uk/values-uk.xml",
+                    "source": "C:\\Users\\awart\\.gradle\\caches\\8.13\\transforms\\0da1497ff24b2715ff3c7864c19ff010\\transformed\\core-1.12.0\\res\\values-uk\\values-uk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -89,7 +89,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jessicabull/.gradle/caches/8.13/transforms/8ebef41fc15188cbbe5c3d474b3788fa/transformed/material3-1.1.2/res/values-uk/values-uk.xml",
+                    "source": "C:\\Users\\awart\\.gradle\\caches\\8.13\\transforms\\8ebef41fc15188cbbe5c3d474b3788fa\\transformed\\material3-1.1.2\\res\\values-uk\\values-uk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

@@ -6,5 +6,15 @@ color teal_200
 dimen corner_large
 dimen corner_medium
 dimen corner_small
+drawable ic_accessibility_cognitive
+drawable ic_accessibility_hearing
+drawable ic_accessibility_mobility
+drawable ic_accessibility_vision
 string app_name
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
+string project_id
 style Theme.AccessMap

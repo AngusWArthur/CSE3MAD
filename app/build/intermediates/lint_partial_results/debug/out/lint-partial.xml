@@ -50,7 +50,7 @@
             endOffset="132"/>
         <entry
             name="model"
-            string="color[teal_200(D),purple_700(D),purple_500(D)],dimen[corner_large(D),corner_small(D),corner_medium(D)],string[app_name(D)],style[Theme_AccessMap(U)];;;;"/>
+            string="color[teal_200(D),purple_700(D),purple_500(D)],dimen[corner_large(D),corner_small(D),corner_medium(D)],drawable[ic_accessibility_cognitive(U),ic_accessibility_hearing(U),ic_accessibility_mobility(U),ic_accessibility_vision(U)],string[app_name(D)],style[Theme_AccessMap(U)];;;;"/>
         <location id="R.dimen.corner_small"
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/shape.xml"
             line="2"
