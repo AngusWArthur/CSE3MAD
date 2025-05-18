@@ -107,6 +107,25 @@
     <incident
         id="GradleDependency"
         severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.0">
+        <fix-replace
+            description="Change to 1.7.0"
+            family="Update versions"
+            oldString="1.6.1"
+            replacement="1.7.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="38"
+            column="20"
+            startOffset="765"
+            endLine="38"
+            endColumn="56"
+            endOffset="801"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
         message="A newer version of androidx.compose.ui:ui than 1.6.0 is available: 1.8.1">
         <fix-replace
             description="Change to 1.8.1"
@@ -115,12 +134,12 @@
             replacement="1.8.1"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="38"
+            line="40"
             column="20"
-            startOffset="765"
-            endLine="38"
+            startOffset="824"
+            endLine="40"
             endColumn="50"
-            endOffset="795"/>
+            endOffset="854"/>
     </incident>
 
     <incident
@@ -134,12 +153,12 @@
             replacement="1.3.2"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="39"
+            line="41"
             column="20"
-            startOffset="816"
-            endLine="39"
+            startOffset="875"
+            endLine="41"
             endColumn="64"
-            endOffset="860"/>
+            endOffset="919"/>
     </incident>
 
     <incident
@@ -153,12 +172,12 @@
             replacement="1.8.1"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="40"
+            line="42"
             column="20"
-            startOffset="881"
-            endLine="40"
+            startOffset="940"
+            endLine="42"
             endColumn="66"
-            endOffset="927"/>
+            endOffset="986"/>
     </incident>
 
     <incident
@@ -172,12 +191,12 @@
             replacement="1.8.1"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="41"
+            line="43"
             column="25"
-            startOffset="953"
-            endLine="41"
+            startOffset="1012"
+            endLine="43"
             endColumn="63"
-            endOffset="991"/>
+            endOffset="1050"/>
     </incident>
 
     <incident
@@ -191,12 +210,12 @@
             replacement="1.7.8"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="43"
+            line="45"
             column="20"
-            startOffset="1014"
-            endLine="43"
+            startOffset="1073"
+            endLine="45"
             endColumn="77"
-            endOffset="1071"/>
+            endOffset="1130"/>
     </incident>
 
     <incident
@@ -210,12 +229,12 @@
             replacement="2.9.0"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="44"
+            line="46"
             column="20"
-            startOffset="1092"
-            endLine="44"
+            startOffset="1151"
+            endLine="46"
             endColumn="66"
-            endOffset="1138"/>
+            endOffset="1197"/>
     </incident>
 
     <incident
@@ -229,12 +248,31 @@
             replacement="19.2.0"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="47"
+            line="49"
             column="20"
-            startOffset="1227"
-            endLine="47"
+            startOffset="1285"
+            endLine="49"
             endColumn="70"
-            endOffset="1277"/>
+            endOffset="1335"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.libraries.places:places than 3.4.0 is available: 4.2.0">
+        <fix-replace
+            description="Change to 4.2.0"
+            family="Update versions"
+            oldString="3.4.0"
+            replacement="4.2.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="50"
+            column="20"
+            startOffset="1356"
+            endLine="50"
+            endColumn="70"
+            endOffset="1406"/>
     </incident>
 
     <incident
@@ -248,12 +286,12 @@
             replacement="25.1.4"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="50"
+            line="53"
             column="20"
-            startOffset="1346"
-            endLine="50"
+            startOffset="1475"
+            endLine="53"
             endColumn="71"
-            endOffset="1397"/>
+            endOffset="1526"/>
     </incident>
 
     <incident
@@ -267,12 +305,12 @@
             replacement="21.0.0"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="51"
+            line="54"
             column="20"
-            startOffset="1418"
-            endLine="51"
+            startOffset="1547"
+            endLine="54"
             endColumn="66"
-            endOffset="1464"/>
+            endOffset="1593"/>
     </incident>
 
 </incidents>

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AccessMap</string>
+    <string name="google_maps_key">AIzaSyB-k5rdvDNS7XkS3iGVug3idlC3KMZq00Y</string>
 </resources>

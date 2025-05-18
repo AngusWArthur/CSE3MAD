@@ -3,12 +3,12 @@
     <application
         android:allowBackup="true"
         android:label="AccessMap"
-        android:theme="@style/Theme.AccessMap"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:supportsRtl="true">
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyB-k5rdvDNS7XkS3iGVug3idlC3KMZq00Y" />
+            android:value="@string/google_maps_key" />
 
         <activity android:name=".MainActivity"
             android:exported="true">
