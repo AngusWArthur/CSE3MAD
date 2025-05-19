@@ -10,7 +10,12 @@ drawable ic_accessibility_cognitive
 drawable ic_accessibility_hearing
 drawable ic_accessibility_mobility
 drawable ic_accessibility_vision
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+mipmap ic_launcher
+mipmap ic_launcher_round
 string app_name
+string default_web_client_id
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id

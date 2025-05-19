@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="fui_error_weak_password"> <item quantity="one">Паролата не е достатъчно надеждна. Използвайте поне %1$d знак и комбинация от букви и цифри</item> <item quantity="other">Паролата не е достатъчно надеждна. Използвайте поне %1$d знака и комбинация от букви и цифри</item> </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d ново известие</item>
+    <item quantity="other">%d нови известия</item>
+  </plurals>
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Навигиране към началния екран"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Навигиране нагоре"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Още опции"</string>
@@ -31,6 +36,7 @@
     <string msgid="1918297411568599192" name="bottom_sheet_dismiss_description">"Отхвърляне на долния лист"</string>
     <string msgid="7772321844937772780" name="bottom_sheet_drag_handle_description">"Манипулатор за преместване с плъзгане"</string>
     <string msgid="4324434199045499117" name="bottom_sheet_expand_description">"Разгъване на долния лист"</string>
+    <string name="bottomsheet_action_expand_halfway">Разгъване наполовина</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"Отговор"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Видеообаждане"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"Отхвърляне"</string>
@@ -38,6 +44,9 @@
     <string msgid="6107532579223922871" name="call_notification_incoming_text">"Входящо обаждане"</string>
     <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Текущо обаждане"</string>
     <string msgid="59049573811482460" name="call_notification_screening_text">"Преглежда се входящо обаждане"</string>
+    <string name="character_counter_content_description">Въведени знаци: %1$d от %2$d</string>
+    <string name="character_counter_overflowed_content_description">Максималният брой знаци е надхвърлен с(ъс) %1$d от %2$d</string>
+    <string name="clear_text_end_icon_content_description">Изчистване на текста</string>
     <string msgid="406453423630273620" name="close_drawer">"Затваряне на менюто за навигация"</string>
     <string msgid="7573152094250666567" name="close_sheet">"Затваряне на таблицата"</string>
     <string msgid="5389587048670450460" name="collapsed">"Свито"</string>
@@ -59,6 +68,7 @@
     <string name="common_open_on_phone">Отваряне на телефона</string>
     <string name="common_signin_button_text">Вход</string>
     <string name="common_signin_button_text_long">Вход с Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Връзката е копирана в буферната памет"</string>
     <string msgid="3499643850558715142" name="date_input_headline">"Въведена дата"</string>
     <string msgid="8562356184193964298" name="date_input_headline_description">"Въведена дата: %1$s"</string>
     <string msgid="5281836720766682161" name="date_input_invalid_for_pattern">"Датата не е в очаквания формат: %1$s"</string>
@@ -94,13 +104,155 @@
     <string msgid="6312721426453364202" name="default_popup_window_title">"Изскачащ прозорец"</string>
     <string msgid="4057925834421392736" name="dialog">"Диалогов прозорец"</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Падащо меню"</string>
+    <string name="error_icon_content_description">Грешка</string>
     <string msgid="5974471714631304645" name="expanded">"Разгънато"</string>
+    <string name="exposed_dropdown_menu_content_description">Показване на падащото меню</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Копиране на връзката"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Отваряне в браузър"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Споделяне на връзката"</string>
+    <string name="fui_accessibility_logo">Лого на приложението</string>
+    <string name="fui_auto_verified">Телефонният номер е потвърден автоматично</string>
+    <string name="fui_button_text_save">Запазване</string>
+    <string name="fui_button_text_send">Изпращане</string>
+    <string name="fui_confirm_recovery_body">За да възстановите паролата си, изпълнете инструкциите, изпратени до %1$s.</string>
+    <string name="fui_continue">Напред</string>
+    <string name="fui_country_hint">Държава</string>
+    <string name="fui_email_account_creation_error">Регистрацията с имейл адрес не бе успешна</string>
+    <string name="fui_email_hint">Имейл</string>
+    <string name="fui_email_link_confirm_email_header">Потвърдете имейл адреса</string>
+    <string name="fui_email_link_confirm_email_message">Потвърдете имейл адреса, за да продължите с влизането в профила</string>
+    <string name="fui_email_link_cross_device_linking_text">Първоначално искахте да свържете %1$s с имейла на профила си, но отворихте връзката на различно устройство без вход в профила.\n\nАко все още искате да свържете профила си в(ъв) %1$s, отворете връзката на същото устройство, на което започнахте влизането в профила. В противен случай докоснете „Напред“, за да влезете на това устройство.</string>
+    <string name="fui_email_link_different_anonymous_user_header">Сесията приключи</string>
+    <string name="fui_email_link_different_anonymous_user_message">Сесията, свързана с тази заявка за вход в профила, е изтекла или бе изчистена.</string>
+    <string name="fui_email_link_dismiss_button">Отхвърляне</string>
+    <string name="fui_email_link_email_sent">Изпратихме имейл до %1$s за вход в профила с допълнителни инструкции. Проверете входящата си поща, за да завършите процеса.</string>
+    <string name="fui_email_link_header">Изпратен е имейл за вход в профила\n</string>
+    <string name="fui_email_link_invalid_link_header">Влизането в профила не може да бъде завършено</string>
+    <string name="fui_email_link_invalid_link_message">Кодът за активиране е невалиден. Той може да е образуван неправилно, да е с изтекла валидност или вече да е използван.</string>
+    <string name="fui_email_link_resend">Повторно изпращане</string>
+    <string name="fui_email_link_trouble_getting_email_header">Имате проблеми с получаването на имейла?</string>
+    <string name="fui_email_link_trouble_getting_possible_fixes">Изпробвайте следните често използвани решения:\n\u2022 Проверете дали имейлът не е обозначен и филтриран като спам.\n\u2022 Проверете връзката си с интернет.\n\u2022 Проверете дали имейлът е изписан правилно.\n\u2022 Проверете дали в пощенската ви кутия има достатъчно пространство, или не е налице друг проблем с настройките й.\n</string>
+    <string name="fui_email_link_wrong_device_header">Открито е ново устройство или браузър.</string>
+    <string name="fui_email_link_wrong_device_message">Опитайте да отворите връзката от същото устройство или браузър, където е започнат процесът на влизане в профила.</string>
+    <string name="fui_enter_confirmation_code">Въведете 6-цифрения код, който изпратихме до</string>
+    <string name="fui_error_email_does_not_exist">Този имейл адрес не съответства на съществуващ профил</string>
+    <string name="fui_error_invalid_password">Грешна парола.</string>
+    <string name="fui_error_quota_exceeded">При потвърждаването на телефонния ви номер възникна проблем</string>
+    <string name="fui_error_session_expired">Този код вече не е валиден</string>
+    <string name="fui_error_too_many_attempts">Този телефонен номер е използван твърде много пъти</string>
+    <string name="fui_error_unknown">Възникна неизвестна грешка.</string>
+    <string name="fui_idp_name_email">Имейл</string>
+    <string name="fui_idp_name_facebook">Facebook</string>
+    <string name="fui_idp_name_github">GitHub</string>
+    <string name="fui_idp_name_google">Google</string>
+    <string name="fui_idp_name_phone">Телефон</string>
+    <string name="fui_idp_name_twitter">Twitter</string>
+    <string name="fui_incorrect_code_dialog_body">Неправилен код. Опитайте отново.</string>
+    <string name="fui_invalid_email_address">Този имейл адрес е неправилен</string>
+    <string name="fui_invalid_phone_number">Въведете валиден телефонен номер</string>
+    <string name="fui_missing_email_address">Въведете имейл адреса си, за да продължите</string>
+    <string name="fui_missing_first_and_last_name">Моля, въведете име и фамилия.</string>
+    <string name="fui_name_hint">Име и фамилия</string>
+    <string name="fui_new_password_hint">Нова парола</string>
+    <string name="fui_next_default">Напред</string>
+    <string name="fui_no_internet" translation_descripition="User message shown when sign-in is attempted while offline.">Грешка в мрежата – проверете връзката с интернет.</string>
+    <string name="fui_password_hint">Парола</string>
+    <string name="fui_password_recovery_body">На този имейл адрес ще получите инструкции за повторно задаване на паролата.</string>
+    <string name="fui_phone_hint">Телефонен номер</string>
+    <string name="fui_privacy_policy">Декларация за поверителност</string>
+    <string name="fui_progress_dialog_checking_accounts">Проверява се за съществуващи профили…</string>
+    <string name="fui_progress_dialog_loading">Зарежда се…</string>
+    <string name="fui_progress_dialog_sending">Изпраща се…</string>
+    <string name="fui_progress_dialog_signing_in">Влизате…</string>
+    <string name="fui_progress_dialog_signing_up">Създава се регистрация…</string>
+    <string name="fui_required_field">Трябва да се попълни.</string>
+    <string name="fui_resend_code">Повторно изпращане на кода</string>
+    <string name="fui_resend_code_in">Повторно изпращане на кода след 0:%02d</string>
+    <string name="fui_sign_in_anonymously">Продължаване като гост</string>
+    <string name="fui_sign_in_default">Вход</string>
+    <string name="fui_sign_in_with_apple">Вход с профил в Apple</string>
+    <string name="fui_sign_in_with_email">Вход с имейл</string>
+    <string name="fui_sign_in_with_facebook">Вход с Facebook</string>
+    <string name="fui_sign_in_with_github">Вход с GitHub</string>
+    <string name="fui_sign_in_with_google">Вход с Google</string>
+    <string name="fui_sign_in_with_microsoft">Вход с профил в Microsoft</string>
+    <string name="fui_sign_in_with_phone">Вход с телефон</string>
+    <string name="fui_sign_in_with_phone_number">Вход с телефонен номер</string>
+    <string name="fui_sign_in_with_twitter">Вход с Twitter</string>
+    <string name="fui_sign_in_with_yahoo">Вход с профил в Yahoo</string>
+    <string name="fui_sms_terms_of_service">Докосвайки „%1$s“, може да получите SMS съобщение. То може да се таксува по тарифите за данни и SMS.</string>
+    <string name="fui_sms_terms_of_service_and_privacy_policy_extended">Докосвайки „%1$s“, приемате нашите %2$s и %3$s. Възможно е да получите SMS съобщение. То може да се таксува по тарифите за данни и SMS.</string>
+    <string name="fui_terms_of_service">Общите условия</string>
+    <string name="fui_title_confirm_recover_password">Проверете електронната си поща</string>
+    <string name="fui_title_recover_password_activity">Възстановяване на паролата</string>
+    <string name="fui_title_register_email">Регистрация</string>
+    <string name="fui_tos_and_pp">Продължавайки, приемате нашите %1$s и %2$s.</string>
+    <string name="fui_tos_and_pp_footer">%1$s     %2$s</string>
+    <string name="fui_trouble_signing_in">Имате проблем при влизането?</string>
+    <string name="fui_verify_phone_number">Потвърждаване на телефонния номер</string>
+    <string name="fui_verify_phone_number_title">Въвеждане на телефонния ви номер</string>
+    <string name="fui_verify_your_phone_title">Потвърждаване на телефонния ви номер</string>
+    <string name="fui_verifying">Потвърждава се…</string>
+    <string name="fui_welcome_back_email_header">Добре дошли отново!</string>
+    <string name="fui_welcome_back_email_link_header">Вече имате профил\n</string>
+    <string name="fui_welcome_back_email_link_prompt_body">Вече използвахте %1$s. Можете да свържете профила си в(ъв) %2$s с имейл адреса %1$s чрез посочената по-долу връзка за вход.\n\nЗа успешното свързване на профила си в(ъв) %2$s с този имейл адрес, трябва да отворите връзката на същото устройство или браузър.</string>
+    <string name="fui_welcome_back_idp_header">Вече имате профил</string>
+    <string name="fui_welcome_back_idp_prompt">Вече използвахте %1$s. За да продължите, влезте с %2$s.</string>
+    <string name="fui_welcome_back_password_prompt_body">Вече използвахте %1$s за вход. Въведете паролата си за този профил.</string>
+    <string name="icon_content_description">Икона за диалогов прозорец</string>
     <string msgid="6827826412747255547" name="in_progress">"В ход"</string>
     <string msgid="7933458017204019916" name="indeterminate">"Частично отметнато"</string>
+    <string name="item_view_role_description">Раздел</string>
+    <string name="material_clock_toggle_content_description">Изберете AM или PM</string>
+    <string name="material_hour_selection">Изберете час</string>
+    <string name="material_hour_suffix">%1$s часа</string>
+    <string name="material_minute_selection">Избиране на минути</string>
+    <string name="material_minute_suffix">%1$s минути</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Превключете към режима за часовник, за да въведете часа.</string>
+    <string name="material_timepicker_hour">Час</string>
+    <string name="material_timepicker_minute">Минута</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Избор на час</string>
+    <string name="material_timepicker_text_input_mode_description">Превключете към режима за въвеждане на текст, за да въведете часа.</string>
+    <string name="mtrl_badge_numberless_content_description">Ново известие</string>
+    <string name="mtrl_chip_close_icon_content_description">Премахване на %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Повече от %1$d нови известия</string>
+    <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
+    <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
+    <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Избиране на дата</string>
+    <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
+    <string name="mtrl_picker_day_of_week_column_header">Колона за дни: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Форматът е невалиден.</string>
+    <string name="mtrl_picker_invalid_format_example">Пример: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Използвайте: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Невалиден диапазон.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Навигиране до %1$s г.</string>
+    <string name="mtrl_picker_out_of_range">Извън диапазона: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Начална дата – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – крайна дата</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Избиране на период от време</string>
+    <string name="mtrl_picker_range_header_unselected">Начална дата – крайна дата</string>
+    <string name="mtrl_picker_save">Запазване</string>
+    <string name="mtrl_picker_text_input_date_hint">Дата</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Крайна дата</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Начална дата</string>
+    <string name="mtrl_picker_text_input_day_abbr">д</string>
+    <string name="mtrl_picker_text_input_month_abbr">м</string>
+    <string name="mtrl_picker_text_input_year_abbr">г</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Превключване към режим на въвеждане в календар</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Докоснете, за да превключите към избиране на ден</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Превключване към режим за въвеждане на текст</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Докоснете, за да превключите към избиране на година</string>
     <string msgid="542007171693138492" name="navigation_menu">"Меню за навигация"</string>
     <string msgid="6610465462668679431" name="not_selected">"Не е избрано"</string>
     <string msgid="875452955155264703" name="off">"Изкл."</string>
     <string msgid="8655164131929253426" name="on">"Вкл."</string>
+    <string name="password_toggle_content_description">Показване на паролата</string>
     <string name="places_autocomplete_clear_button">Изчистване на търсенето</string>
     <string name="places_autocomplete_label">Изберете място</string>
     <string name="places_autocomplete_no_results_for_query">Няма резултати за „%1$s“</string>

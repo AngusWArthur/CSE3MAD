@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="fui_error_weak_password"> <item quantity="one">Das Passwort ist zu schwach. Verwenden Sie mindestens %1$d Zeichen und eine Mischung aus Buchstaben und Ziffern.</item> <item quantity="other">Das Passwort ist zu schwach. Verwenden Sie mindestens %1$d Zeichen und eine Mischung aus Buchstaben und Ziffern.</item> </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d neue Benachrichtigung</item>
+    <item quantity="other">%d neue Benachrichtigungen</item>
+  </plurals>
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Zur Startseite"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Nach oben"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Weitere Optionen"</string>
@@ -31,6 +36,7 @@
     <string msgid="1918297411568599192" name="bottom_sheet_dismiss_description">"Ansicht am unteren Rand schließen"</string>
     <string msgid="7772321844937772780" name="bottom_sheet_drag_handle_description">"Ziehpunkt"</string>
     <string msgid="4324434199045499117" name="bottom_sheet_expand_description">"Ansicht am unteren Rand maximieren"</string>
+    <string name="bottomsheet_action_expand_halfway">Zur Hälfte maximieren</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"Annehmen"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"Ablehnen"</string>
@@ -38,6 +44,9 @@
     <string msgid="6107532579223922871" name="call_notification_incoming_text">"Eingehender Anruf"</string>
     <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Aktueller Anruf"</string>
     <string msgid="59049573811482460" name="call_notification_screening_text">"Filter für eingehenden Anruf"</string>
+    <string name="character_counter_content_description">Eingegebene Zeichen: %1$d von %2$d</string>
+    <string name="character_counter_overflowed_content_description">Zeichenbeschränkung überschritten: %1$d/%2$d</string>
+    <string name="clear_text_end_icon_content_description">Text löschen</string>
     <string msgid="406453423630273620" name="close_drawer">"Navigationsmenü schließen"</string>
     <string msgid="7573152094250666567" name="close_sheet">"Tabelle schließen"</string>
     <string msgid="5389587048670450460" name="collapsed">"Minimiert"</string>
@@ -59,6 +68,7 @@
     <string name="common_open_on_phone">Auf Smartphone öffnen</string>
     <string name="common_signin_button_text">Anmelden</string>
     <string name="common_signin_button_text_long">Über Google anmelden</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Link in Zwischenablage kopiert"</string>
     <string msgid="3499643850558715142" name="date_input_headline">"Eingabedatum:"</string>
     <string msgid="8562356184193964298" name="date_input_headline_description">"Eingabedatum: %1$s"</string>
     <string msgid="5281836720766682161" name="date_input_invalid_for_pattern">"Datum entspricht nicht dem erwarteten Format: %1$s"</string>
@@ -94,13 +104,155 @@
     <string msgid="6312721426453364202" name="default_popup_window_title">"Pop-up-Fenster"</string>
     <string msgid="4057925834421392736" name="dialog">"Dialogfeld"</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Drop-down-Menü"</string>
+    <string name="error_icon_content_description">Fehler</string>
     <string msgid="5974471714631304645" name="expanded">"Maximiert"</string>
+    <string name="exposed_dropdown_menu_content_description">Drop-down-Menü anzeigen</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Link kopieren"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Im Browser öffnen"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Link teilen"</string>
+    <string name="fui_accessibility_logo">App-Logo</string>
+    <string name="fui_auto_verified">Telefonnummer wurde automatisch bestätigt</string>
+    <string name="fui_button_text_save">Speichern</string>
+    <string name="fui_button_text_send">Senden</string>
+    <string name="fui_confirm_recovery_body">Folgen Sie der an %1$s gesendeten Anleitung, um Ihr Passwort zurückzusetzen.</string>
+    <string name="fui_continue">Weiter</string>
+    <string name="fui_country_hint">Land</string>
+    <string name="fui_email_account_creation_error">Registrierung des E-Mail-Kontos fehlgeschlagen</string>
+    <string name="fui_email_hint">E-Mail-Adresse</string>
+    <string name="fui_email_link_confirm_email_header">E-Mail-Adresse bestätigen</string>
+    <string name="fui_email_link_confirm_email_message">E-Mail-Adresse bestätigen, um Anmeldung fortzusetzen</string>
+    <string name="fui_email_link_cross_device_linking_text">Sie haben versucht, %1$s auf einem Gerät, auf dem Sie nicht angemeldet sind, mit Ihrem E-Mail-Konto zu verbinden.\n\nWenn Sie Ihr %1$s-Konto weiterhin verbinden möchten, öffnen Sie den Link bitte auf dem Gerät, auf dem Sie den Anmeldevorgang gestartet haben. Andernfalls tippen Sie auf \"Weiter\", um sich auf diesem Gerät anzumelden.</string>
+    <string name="fui_email_link_different_anonymous_user_header">Sitzung beendet</string>
+    <string name="fui_email_link_different_anonymous_user_message">Die mit dieser Anmeldeanfrage verknüpfte Sitzung ist entweder abgelaufen oder wurde gelöscht.</string>
+    <string name="fui_email_link_dismiss_button">Ablehnen</string>
+    <string name="fui_email_link_email_sent">Wir haben eine Anmelde-E-Mail mit zusätzlichen Informationen an %1$s gesendet. Bitte öffnen Sie die E-Mail, um die Anmeldung abzuschließen.</string>
+    <string name="fui_email_link_header">Anmelde-E-Mail gesendet\n</string>
+    <string name="fui_email_link_invalid_link_header">Anmelden nicht möglich</string>
+    <string name="fui_email_link_invalid_link_message">Der Aktionscode ist ungültig. Möglicherweise ist der Code fehlerhaft oder abgelaufen oder er wurde bereits verwendet.</string>
+    <string name="fui_email_link_resend">Erneut senden</string>
+    <string name="fui_email_link_trouble_getting_email_header">Probleme beim Empfangen von E-Mails?</string>
+    <string name="fui_email_link_trouble_getting_possible_fixes">Versuchen Sie es mit diesen gängigen Korrekturen:\n\u2022 Prüfen Sie, ob die E-Mail als Spam markiert oder gefiltert wurde.\n\u2022 Prüfen Sie Ihre Internetverbindung.\n\u2022 Prüfen Sie, ob Sie die E-Mail-Adresse korrekt geschrieben haben.\n\u2022 Prüfen Sie, ob Ihr Posteingang über genügend Speicherplatz verfügt oder ob es Probleme mit den Einstellungen gibt.\n</string>
+    <string name="fui_email_link_wrong_device_header">Neues Gerät oder neuer Browser erkannt.</string>
+    <string name="fui_email_link_wrong_device_message">Öffnen Sie den Link mit demselben Gerät oder Browser, mit dem Sie die Anmeldung begonnen haben.</string>
+    <string name="fui_enter_confirmation_code">Geben Sie den 6-stelligen Code ein, der gesendet wurde an</string>
+    <string name="fui_error_email_does_not_exist">Diese E-Mail-Adresse passt zu keinem Konto</string>
+    <string name="fui_error_invalid_password">Falsches Passwort</string>
+    <string name="fui_error_quota_exceeded">Bei der Bestätigung Ihrer Telefonnummer ist ein Problem aufgetreten</string>
+    <string name="fui_error_session_expired">Dieser Code ist nicht mehr gültig</string>
+    <string name="fui_error_too_many_attempts">Diese Telefonnummer wurde schon zu oft verwendet</string>
+    <string name="fui_error_unknown">Ein unbekannter Fehler ist aufgetreten.</string>
+    <string name="fui_idp_name_email">E-Mail</string>
+    <string name="fui_idp_name_facebook">Facebook</string>
+    <string name="fui_idp_name_github">GitHub</string>
+    <string name="fui_idp_name_google">Google</string>
+    <string name="fui_idp_name_phone">Telefon</string>
+    <string name="fui_idp_name_twitter">Twitter</string>
+    <string name="fui_incorrect_code_dialog_body">Falscher Code. Versuchen Sie es noch einmal.</string>
+    <string name="fui_invalid_email_address">Ungültige E-Mail-Adresse</string>
+    <string name="fui_invalid_phone_number">Geben Sie eine gültige Telefonnummer ein</string>
+    <string name="fui_missing_email_address">E-Mail-Adresse eingeben, um fortzufahren</string>
+    <string name="fui_missing_first_and_last_name">Geben Sie einen Vor- und Nachnamen ein.</string>
+    <string name="fui_name_hint">Vor- und Nachname</string>
+    <string name="fui_new_password_hint">Neues Passwort</string>
+    <string name="fui_next_default">Weiter</string>
+    <string name="fui_no_internet" translation_descripition="User message shown when sign-in is attempted while offline.">Netzwerkfehler. Überprüfen Sie Ihre Internetverbindung.</string>
+    <string name="fui_password_hint">Passwort</string>
+    <string name="fui_password_recovery_body">In der an diese E-Mail-Adresse gesendeten Anleitung wird beschrieben, wie Sie Ihr Passwort zurücksetzen können.</string>
+    <string name="fui_phone_hint">Telefonnummer</string>
+    <string name="fui_privacy_policy">Datenschutzerklärung</string>
+    <string name="fui_progress_dialog_checking_accounts">Auf vorhandene Konten wird geprüft…</string>
+    <string name="fui_progress_dialog_loading">Wird geladen…</string>
+    <string name="fui_progress_dialog_sending">Wird gesendet…</string>
+    <string name="fui_progress_dialog_signing_in">Anmeldung wird durchgeführt…</string>
+    <string name="fui_progress_dialog_signing_up">Registrierung wird durchgeführt…</string>
+    <string name="fui_required_field">Pflichtfeld.</string>
+    <string name="fui_resend_code">Code erneut senden</string>
+    <string name="fui_resend_code_in">Code in 0:%02d erneut senden</string>
+    <string name="fui_sign_in_anonymously">Als Gast fortfahren</string>
+    <string name="fui_sign_in_default">Anmelden</string>
+    <string name="fui_sign_in_with_apple">Über Apple anmelden</string>
+    <string name="fui_sign_in_with_email">Mit einer E-Mail-Adresse anmelden</string>
+    <string name="fui_sign_in_with_facebook">Über Facebook anmelden</string>
+    <string name="fui_sign_in_with_github">Über GitHub anmelden</string>
+    <string name="fui_sign_in_with_google">Über Google anmelden</string>
+    <string name="fui_sign_in_with_microsoft">Über Microsoft anmelden</string>
+    <string name="fui_sign_in_with_phone">Mit einer Telefonnummer anmelden</string>
+    <string name="fui_sign_in_with_phone_number">Mit einer Telefonnummer anmelden</string>
+    <string name="fui_sign_in_with_twitter">Über Twitter anmelden</string>
+    <string name="fui_sign_in_with_yahoo">Über Yahoo anmelden</string>
+    <string name="fui_sms_terms_of_service">Wenn Sie auf “%1$s” tippen, erhalten Sie möglicherweise eine SMS. Es können Gebühren für SMS und Datenübertragung anfallen.</string>
+    <string name="fui_sms_terms_of_service_and_privacy_policy_extended">Indem Sie auf “%1$s” tippen, stimmen Sie unseren %2$s und unserer %3$s zu. Sie erhalten möglicherweise eine SMS und es können Gebühren für die Nachricht und die Datenübertragung anfallen.</string>
+    <string name="fui_terms_of_service">Nutzungsbedingungen</string>
+    <string name="fui_title_confirm_recover_password">Im Posteingang nachsehen</string>
+    <string name="fui_title_recover_password_activity">Passwort zurücksetzen</string>
+    <string name="fui_title_register_email">Registrieren</string>
+    <string name="fui_tos_and_pp">Indem Sie fortfahren, stimmen Sie unseren %1$s und unserer %2$s zu.</string>
+    <string name="fui_tos_and_pp_footer">%1$s \u00A0 \u00A0 %2$s</string>
+    <string name="fui_trouble_signing_in">Probleme bei der Anmeldung?</string>
+    <string name="fui_verify_phone_number">Telefonnummer bestätigen</string>
+    <string name="fui_verify_phone_number_title">Telefonnummer eingeben</string>
+    <string name="fui_verify_your_phone_title">Telefonnummer bestätigen</string>
+    <string name="fui_verifying">Wird verifiziert…</string>
+    <string name="fui_welcome_back_email_header">Willkommen zurück!</string>
+    <string name="fui_welcome_back_email_link_header">Sie haben schon ein Konto\n</string>
+    <string name="fui_welcome_back_email_link_prompt_body">Sie haben %1$s schon benutzt. Sie können Ihr %2$s-Konto mit %1$s verbinden, indem Sie sich über den folgenden E-Mail-Link anmelden.\n\nÖffnen Sie den Link mit demselben Gerät oder Browser, um Ihr %2$s-Konto mit dieser E-Mail-Adresse zu verbinden.</string>
+    <string name="fui_welcome_back_idp_header">Sie haben bereits ein Konto</string>
+    <string name="fui_welcome_back_idp_prompt">Sie haben %1$s bereits verwendet. Melden Sie sich mit %2$s an, um fortzufahren.</string>
+    <string name="fui_welcome_back_password_prompt_body">Sie haben %1$s bereits zur Anmeldung verwendet. Geben Sie das Passwort für dieses Konto ein.</string>
+    <string name="icon_content_description">Dialogfeldsymbol</string>
     <string msgid="6827826412747255547" name="in_progress">"In Bearbeitung"</string>
     <string msgid="7933458017204019916" name="indeterminate">"Teilweise aktiviert"</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="material_clock_toggle_content_description">Vormittags oder Nachmittags auswählen</string>
+    <string name="material_hour_selection">Stunde auswählen</string>
+    <string name="material_hour_suffix">%1$s Uhr</string>
+    <string name="material_minute_selection">Minuten auswählen</string>
+    <string name="material_minute_suffix">%1$s Minuten</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">In den Uhrzeitmodus wechseln, um die Uhrzeit einzugeben.</string>
+    <string name="material_timepicker_hour">Stunde</string>
+    <string name="material_timepicker_minute">Minute</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Uhrzeit auswählen</string>
+    <string name="material_timepicker_text_input_mode_description">In den Texteingabemodus wechseln, um die Uhrzeit einzugeben.</string>
+    <string name="mtrl_badge_numberless_content_description">Neue Benachrichtigung</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Mehr als %1$d neue Benachrichtigungen</string>
+    <string name="mtrl_picker_a11y_next_month">Zum nächsten Monat wechseln</string>
+    <string name="mtrl_picker_a11y_prev_month">Zum vorherigen Monat wechseln</string>
+    <string name="mtrl_picker_announce_current_selection">Aktuelle Auswahl: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Datum auswählen</string>
+    <string name="mtrl_picker_date_header_unselected">Ausgewähltes Datum</string>
+    <string name="mtrl_picker_day_of_week_column_header">Spalte \"Wochentag\": %1$s</string>
+    <string name="mtrl_picker_invalid_format">Ungültiges Format.</string>
+    <string name="mtrl_picker_invalid_format_example">Beispiel: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Format: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Ungültiger Bereich.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Zum Jahr %1$s wechseln</string>
+    <string name="mtrl_picker_out_of_range">Außerhalb des Bereichs: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Startdatum – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Enddatum</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Zeitraum auswählen</string>
+    <string name="mtrl_picker_range_header_unselected">Startdatum – Enddatum</string>
+    <string name="mtrl_picker_save">Speichern</string>
+    <string name="mtrl_picker_text_input_date_hint">Datum</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Enddatum</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Startdatum</string>
+    <string name="mtrl_picker_text_input_day_abbr">T</string>
+    <string name="mtrl_picker_text_input_month_abbr">M</string>
+    <string name="mtrl_picker_text_input_year_abbr">J</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">In den Kalendereingabemodus wechseln</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tippen, um zur Tagesauswahl zu wechseln</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">In den Texteingabemodus wechseln</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tippen, um zur Jahresauswahl zu wechseln</string>
     <string msgid="542007171693138492" name="navigation_menu">"Navigationsmenü"</string>
     <string msgid="6610465462668679431" name="not_selected">"Nicht ausgewählt"</string>
     <string msgid="875452955155264703" name="off">"Aus"</string>
     <string msgid="8655164131929253426" name="on">"An"</string>
+    <string name="password_toggle_content_description">Passwort anzeigen</string>
     <string name="places_autocomplete_clear_button">Suche löschen</string>
     <string name="places_autocomplete_label">Ort auswählen</string>
     <string name="places_autocomplete_no_results_for_query">Keine Ergebnisse für \"%1$s\"</string>
