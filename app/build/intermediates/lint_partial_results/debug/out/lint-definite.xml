@@ -115,88 +115,69 @@
             replacement="1.7.0"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="38"
+            line="37"
             column="20"
-            startOffset="765"
-            endLine="38"
+            startOffset="763"
+            endLine="37"
             endColumn="56"
-            endOffset="801"/>
+            endOffset="799"/>
     </incident>
 
     <incident
         id="GradleDependency"
         severity="warning"
-        message="A newer version of androidx.compose.ui:ui than 1.6.0 is available: 1.8.1">
+        message="A newer version of androidx.compose.ui:ui than 1.6.0 is available: 1.8.2">
         <fix-replace
-            description="Change to 1.8.1"
+            description="Change to 1.8.2"
             family="Update versions"
             oldString="1.6.0"
-            replacement="1.8.1"/>
+            replacement="1.8.2"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="39"
+            column="20"
+            startOffset="822"
+            endLine="39"
+            endColumn="50"
+            endOffset="852"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.compose.ui:ui-tooling-preview than 1.6.0 is available: 1.8.2">
+        <fix-replace
+            description="Change to 1.8.2"
+            family="Update versions"
+            oldString="1.6.0"
+            replacement="1.8.2"/>
         <location
             file="${:app*projectDir}/build.gradle"
             line="40"
             column="20"
-            startOffset="824"
+            startOffset="873"
             endLine="40"
-            endColumn="50"
-            endOffset="854"/>
-    </incident>
-
-    <incident
-        id="GradleDependency"
-        severity="warning"
-        message="A newer version of androidx.compose.material3:material3 than 1.1.2 is available: 1.3.2">
-        <fix-replace
-            description="Change to 1.3.2"
-            family="Update versions"
-            oldString="1.1.2"
-            replacement="1.3.2"/>
-        <location
-            file="${:app*projectDir}/build.gradle"
-            line="41"
-            column="20"
-            startOffset="875"
-            endLine="41"
-            endColumn="64"
+            endColumn="66"
             endOffset="919"/>
     </incident>
 
     <incident
         id="GradleDependency"
         severity="warning"
-        message="A newer version of androidx.compose.ui:ui-tooling-preview than 1.6.0 is available: 1.8.1">
+        message="A newer version of androidx.compose.ui:ui-tooling than 1.6.0 is available: 1.8.2">
         <fix-replace
-            description="Change to 1.8.1"
+            description="Change to 1.8.2"
             family="Update versions"
             oldString="1.6.0"
-            replacement="1.8.1"/>
+            replacement="1.8.2"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="42"
-            column="20"
-            startOffset="940"
-            endLine="42"
-            endColumn="66"
-            endOffset="986"/>
-    </incident>
-
-    <incident
-        id="GradleDependency"
-        severity="warning"
-        message="A newer version of androidx.compose.ui:ui-tooling than 1.6.0 is available: 1.8.1">
-        <fix-replace
-            description="Change to 1.8.1"
-            family="Update versions"
-            oldString="1.6.0"
-            replacement="1.8.1"/>
-        <location
-            file="${:app*projectDir}/build.gradle"
-            line="43"
+            line="41"
             column="25"
-            startOffset="1012"
-            endLine="43"
+            startOffset="945"
+            endLine="41"
             endColumn="63"
-            endOffset="1050"/>
+            endOffset="983"/>
     </incident>
 
     <incident
@@ -210,12 +191,50 @@
             replacement="1.7.8"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="45"
+            line="42"
             column="20"
-            startOffset="1073"
-            endLine="45"
+            startOffset="1004"
+            endLine="42"
             endColumn="77"
-            endOffset="1130"/>
+            endOffset="1061"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.compose.material3:material3 than 1.1.2 is available: 1.3.2">
+        <fix-replace
+            description="Change to 1.3.2"
+            family="Update versions"
+            oldString="1.1.2"
+            replacement="1.3.2"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="43"
+            column="20"
+            startOffset="1082"
+            endLine="43"
+            endColumn="64"
+            endOffset="1126"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.16.0">
+        <fix-replace
+            description="Change to 1.16.0"
+            family="Update versions"
+            oldString="1.12.0"
+            replacement="1.16.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="44"
+            column="20"
+            startOffset="1147"
+            endLine="44"
+            endColumn="51"
+            endOffset="1178"/>
     </incident>
 
     <incident
@@ -231,10 +250,10 @@
             file="${:app*projectDir}/build.gradle"
             line="46"
             column="20"
-            startOffset="1151"
+            startOffset="1201"
             endLine="46"
             endColumn="66"
-            endOffset="1197"/>
+            endOffset="1247"/>
     </incident>
 
     <incident
@@ -250,10 +269,29 @@
             file="${:app*projectDir}/build.gradle"
             line="49"
             column="20"
-            startOffset="1285"
+            startOffset="1335"
             endLine="49"
             endColumn="70"
-            endOffset="1335"/>
+            endOffset="1385"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.gms:play-services-location than 21.0.1 is available: 21.3.0">
+        <fix-replace
+            description="Change to 21.3.0"
+            family="Update versions"
+            oldString="21.0.1"
+            replacement="21.3.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="51"
+            column="20"
+            startOffset="1482"
+            endLine="51"
+            endColumn="74"
+            endOffset="1536"/>
     </incident>
 
     <incident
@@ -267,12 +305,69 @@
             replacement="4.2.0"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="50"
+            line="52"
             column="20"
-            startOffset="1356"
-            endLine="50"
+            startOffset="1557"
+            endLine="52"
             endColumn="70"
-            endOffset="1406"/>
+            endOffset="1607"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.firebase:firebase-auth than 22.3.0 is available: 23.2.1">
+        <fix-replace
+            description="Change to 23.2.1"
+            family="Update versions"
+            oldString="22.3.0"
+            replacement="23.2.1"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="55"
+            column="20"
+            startOffset="1664"
+            endLine="55"
+            endColumn="62"
+            endOffset="1706"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.firebase:firebase-auth-ktx than 22.3.0 is available: 23.2.1">
+        <fix-replace
+            description="Change to 23.2.1"
+            family="Update versions"
+            oldString="22.3.0"
+            replacement="23.2.1"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="56"
+            column="20"
+            startOffset="1727"
+            endLine="56"
+            endColumn="66"
+            endOffset="1773"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.firebase:firebase-firestore than 24.9.0 is available: 25.1.4">
+        <fix-replace
+            description="Change to 25.1.4"
+            family="Update versions"
+            oldString="24.9.0"
+            replacement="25.1.4"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="57"
+            column="20"
+            startOffset="1794"
+            endLine="57"
+            endColumn="67"
+            endOffset="1841"/>
     </incident>
 
     <incident
@@ -286,31 +381,31 @@
             replacement="25.1.4"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="53"
+            line="58"
             column="20"
-            startOffset="1475"
-            endLine="53"
+            startOffset="1862"
+            endLine="58"
             endColumn="71"
-            endOffset="1526"/>
+            endOffset="1913"/>
     </incident>
 
     <incident
         id="GradleDependency"
         severity="warning"
-        message="A newer version of com.google.firebase:firebase-database than 20.3.0 is available: 21.0.0">
+        message="A newer version of com.google.android.gms:play-services-auth than 21.0.0 is available: 21.3.0">
         <fix-replace
-            description="Change to 21.0.0"
+            description="Change to 21.3.0"
             family="Update versions"
-            oldString="20.3.0"
-            replacement="21.0.0"/>
+            oldString="21.0.0"
+            replacement="21.3.0"/>
         <location
             file="${:app*projectDir}/build.gradle"
-            line="54"
+            line="61"
             column="20"
-            startOffset="1547"
-            endLine="54"
-            endColumn="66"
-            endOffset="1593"/>
+            startOffset="1959"
+            endLine="61"
+            endColumn="70"
+            endOffset="2009"/>
     </incident>
 
 </incidents>

@@ -59,6 +59,7 @@
     <string name="common_open_on_phone">Deschide pe telefon</string>
     <string name="common_signin_button_text">Conectează-te</string>
     <string name="common_signin_button_text_long">Conectează-te cu Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Linkul a fost copiat în clipboard"</string>
     <string msgid="3499643850558715142" name="date_input_headline">"Data introdusă"</string>
     <string msgid="8562356184193964298" name="date_input_headline_description">"Data introdusă: %1$s"</string>
     <string msgid="5281836720766682161" name="date_input_invalid_for_pattern">"Data nu corespunde modelului așteptat: %1$s"</string>
@@ -95,6 +96,9 @@
     <string msgid="4057925834421392736" name="dialog">"Dialog"</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Meniu drop-down"</string>
     <string msgid="5974471714631304645" name="expanded">"Extins"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Copiați linkul"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Deschideți în browser"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Trimiteți linkul"</string>
     <string msgid="6827826412747255547" name="in_progress">"În curs"</string>
     <string msgid="7933458017204019916" name="indeterminate">"Bifată parțial"</string>
     <string msgid="542007171693138492" name="navigation_menu">"Meniu de navigare"</string>

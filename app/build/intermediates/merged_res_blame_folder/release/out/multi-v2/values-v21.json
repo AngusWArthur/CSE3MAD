@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.accessmap.app-mergeReleaseResources-60:/values-v21/values-v21.xml",
+            "outputFile": "com.example.accessmap.app-mergeReleaseResources-61:/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\awart\\.gradle\\caches\\8.13\\transforms\\a5aac347d2f0e82f4f150a231179ec50\\transformed\\appcompat-1.6.1\\res\\values-v21\\values-v21.xml",
