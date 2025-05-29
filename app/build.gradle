@@ -6,14 +6,15 @@ plugins {
 
 android {
     namespace 'com.example.accessmap'
-    compileSdk 34
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.example.accessmap"
         minSdk 24
-        targetSdk 34
+        targetSdk 35
         versionCode 1
         versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildFeatures {
@@ -38,6 +39,7 @@ dependencies {
 
     implementation "androidx.compose.ui:ui:1.6.0"
     implementation "androidx.compose.ui:ui-tooling-preview:1.6.0"
+    implementation 'androidx.compose.ui:ui-test-junit4-android:1.8.2'
     debugImplementation "androidx.compose.ui:ui-tooling:1.6.0"
     implementation "androidx.compose.material:material-icons-extended:1.6.1"
     implementation "androidx.compose.material3:material3:1.1.2"
