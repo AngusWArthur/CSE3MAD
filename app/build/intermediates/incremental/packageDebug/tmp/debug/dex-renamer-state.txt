@@ -1,11 +1,11 @@
-#Wed May 28 21:44:51 AEST 2025
-base.0=C\:\\Users\\awart\\StudioProjects\\CSE3MAD\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\awart\\StudioProjects\\CSE3MAD\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\awart\\StudioProjects\\CSE3MAD\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
-base.3=C\:\\Users\\awart\\StudioProjects\\CSE3MAD\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
-base.4=C\:\\Users\\awart\\StudioProjects\\CSE3MAD\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.5=C\:\\Users\\awart\\StudioProjects\\CSE3MAD\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
-base.6=C\:\\Users\\awart\\StudioProjects\\CSE3MAD\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes4.dex
+#Fri May 30 00:15:40 BST 2025
+base.0=/Users/jessicabull/CSE3MAD/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/jessicabull/CSE3MAD/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/Users/jessicabull/CSE3MAD/app/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex
+base.3=/Users/jessicabull/CSE3MAD/app/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex
+base.4=/Users/jessicabull/CSE3MAD/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
+base.5=/Users/jessicabull/CSE3MAD/app/build/intermediates/dex/debug/mergeExtDexDebug/classes3.dex
+base.6=/Users/jessicabull/CSE3MAD/app/build/intermediates/dex/debug/mergeExtDexDebug/classes4.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=2/classes.dex
