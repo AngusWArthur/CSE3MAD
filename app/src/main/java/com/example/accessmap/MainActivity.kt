@@ -6,10 +6,18 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import com.example.accessmap.ui.theme.AccessMapTheme
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.perf.FirebasePerformance
+import com.google.firebase.perf.metrics.AddTrace
 
 class MainActivity : ComponentActivity() {
+
+    @AddTrace(name = "onCreateTrace", enabled = true)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // Optionally enable performance collection explicitly (if disabled in settings)
+        FirebasePerformance.getInstance().isPerformanceCollectionEnabled = true
+
         setContent {
             AccessMapTheme {
                 MapScreen(
