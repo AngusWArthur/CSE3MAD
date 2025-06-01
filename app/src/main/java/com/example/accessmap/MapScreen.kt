@@ -13,9 +13,12 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
+import com.example.accessmap.R
+import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.model.*
 import com.google.maps.android.compose.*
-import com.example.accessmap.R
+import com.google.firebase.perf.FirebasePerformance
+import com.google.firebase.perf.metrics.Trace
 
 @Composable
 fun MapScreen(onLogoutClick: () -> Unit) {
@@ -70,6 +73,10 @@ fun MapScreen(onLogoutClick: () -> Unit) {
             modifier = Modifier.fillMaxSize(),
             cameraPositionState = cameraPositionState
         ) {
+            // Firebase custom trace for loading map markers
+            val trace = FirebasePerformance.getInstance().newTrace("load_map_markers")
+            trace.start()
+
             for ((category, markerData) in allMarkers) {
                 if (selectedCategories[category] == true) {
                     Marker(
@@ -80,6 +87,8 @@ fun MapScreen(onLogoutClick: () -> Unit) {
                     )
                 }
             }
+
+            trace.stop()
         }
 
         Column(modifier = Modifier.fillMaxWidth().padding(8.dp)) {
